@@ -3,7 +3,7 @@ document.querySelector('.mudarTextoBotao').addEventListener('click',function(){
     paragrafo.textContent = 'texto alterado!';
 });
 
-document.querySelector('.destacarBotao').addEventListener('lick', function(){
+document.querySelector('.destacarBotao').addEventListener('click', function(){
     const titulo = document.querySelector('.titulo');
     titulo.classList.add('destaque');
 });
